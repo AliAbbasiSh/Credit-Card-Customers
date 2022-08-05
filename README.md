@@ -13,18 +13,11 @@ The following steps are used to identify and classify the customers:<br>
 <li> <strong> Model Selection and Training: </strong> The best model is selected based on f1 score is selected and trained on the data for the classification </li>
 </ol>
 </p>
-
-<ul>
-<li> i did <strong>blah blah</strong> </li>
-<li> i did not blah blah</li>
-
-
-</ul>
-
-you can find my Jupytor notebook from <a href='https://github.com/AliAbbasiSh/Credit-Card-Customers/blob/main/Credit%20Card%20Customers.ipynb'>here. </a>
-
+<h4> Explanatory Data Analysis</h4>
+<p>
+First of all, the distribution of the customer churn is investigated as it can be seen in the following image.<br>
 <img src='https://github.com/AliAbbasiSh/Credit-Card-Customers/blob/main/download.png' ><br>
-
+</p>
 
 
 
