@@ -19,9 +19,12 @@ First of all, the distribution of the customer churn is investigated as it can b
 <br>
 <img src='https://github.com/AliAbbasiSh/Credit-Card-Customers/blob/main/download.png' ><br>
 <br>
-following that, the number and percentage of existing and attrited customer from each categorical feature are illustrated.
+following that, the number and percentage of existing and attrited customer from each categorical feature are illustrated.<br>
+<br>
 <img src='https://github.com/AliAbbasiSh/Credit-Card-Customers/blob/main/Categorical%20Features.png'><br>
-<img src='https://github.com/AliAbbasiSh/Credit-Card Customers/blob/main/Categorical%20Feature%20Percentages.png'><br>
+<br>
+<img src='https://github.com/AliAbbasiSh/Credit-Card-Customers/blob/main/Categorical%20Feature%20Percentages.png'><br>
+<br>
 
 </p>
 
