@@ -25,9 +25,40 @@ following that, the number and percentage of existing and attrited customer from
 <br>
 <img src='https://github.com/AliAbbasiSh/Credit-Card-Customers/blob/main/Categorical%20Feature%20Percentages.png'><br>
 <br>
-
+The effect of some of the features are obvious in this graphs (for example female customers are more likely to leave the bank).
 </p>
-
-
-
+<h4> Feature Selection</h4>
+<p>
+In order to further determine the effect of each feature on the result, feature selection using hypothesis testing is done on categorical features and as it can be seen from the two screen-shots of some of the results we can conclude that gender ahd customer churning are related whereas card_category and customer churning are unrelated.<br>
+<br>
+<br>
+<img src='https://github.com/AliAbbasiSh/Credit-Card-Customers/blob/main/Screenshot%202022-08-05%20135835.png'><br>
+<br>
+<img src='https://github.com/AliAbbasiSh/Credit-Card-Customers/blob/main/Screenshot%202022-08-05%20135929.png'><br>
+<br>
+</p>
+<h4> Data Preprocessing</h4>
+<p>
+The next step is to transform categorical data into numerical ones. For the Attrition_Flag which is the main result column, simple label encoding is conducted. For other features (gender,marital_status,card_category) we used one-hot encoding and for categorical features which represented values(higher income category means higher spending power) ordinal encoding was utilized. Some of these features can be seen before and after transformation. <br>
+<br>
+<br>
+<img src='https://github.com/AliAbbasiSh/Credit-Card-Customers/blob/main/Screenshot%202022-08-05%20141941.png'><br>
+<br>
+<img src='https://github.com/AliAbbasiSh/Credit-Card-Customers/blob/main/Screenshot%202022-08-05%20142036.png'><br>
+<br>
+<img src='https://github.com/AliAbbasiSh/Credit-Card-Customers/blob/main/Screenshot%202022-08-05%20142055.png'><br>
+<br>
+</p>
+<h4> Model Selection and Training</h4>
+<p>
+For the model selection we trained the data on some of the mostly used classification methods (K-neighbor,decision tree, xg boost, SVM, and random forest) and compared the f1 scores<br>
+<br>
+<br>
+<img src='https://github.com/AliAbbasiSh/Credit-Card-Customers/blob/main/Screenshot%202022-08-05%20143053.png'><br>
+<br>
+As it can be seen XGBoost has the best score and as a result a randomized gridsearch is conducted to find the optimum hyperparameters for the best score.
+<img src='https://github.com/AliAbbasiSh/Credit-Card-Customers/blob/main/Screenshot%202022-08-05%20143355.png'><br>
+<br>
+In conclusion, we were able to achieve an f1 score of 0.98 using XGBoost for our classification
+</p>
 
